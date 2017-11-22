@@ -1,0 +1,19 @@
+{
+  "name": "dev234x_module2",
+  "version": "0.1.0",
+  "description": "Edx Course : Microsoft Asynchronous Programming with JavaScript - Module 2 Assignment Advance Catalog Products",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1",
+    "webpack": "^3.8.1"
+  }
+}

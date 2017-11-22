@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Module Tutorial Lab : Product Catalog</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div>
+        <h3>Search Product by ID</h3>
+        <form id="searchForm">
+            <input id="searchBox" type="text" />
+            <button id="searchBtn" type="submit">Search Product</button>
+        </form>
+    </div>
+    <div>
+        <h3>Search Product by Type</h3>
+        <form id="searchTypeForm">
+            <input id="searchTypeBox" type="text" />
+            <button id="searchTypeBtn">Search Type</button>
+        </form>
+    </div>
+    <div>
+        <h3>Search Product by Price</h3>
+        <form id="searchPriceForm">
+            <input id="searchPriceBox" type="text" />
+            <button id="searchPriceBtn">Search Price</button>
+        </form>
+    </div>
+    <div>
+        <h3>Examined Product</h3>
+        <p id="productText">Product ID : <br> Price : <br> Type : </p>
+    </div>
+    <div>
+        <h3>List of Similar Products</h3>
+        <p id="count"></p>
+        <table id="similarTable">
+            <tr>
+                <th>Product ID</th>
+                <th>Type</th>
+                <th>Price</th>
+                <th>Examine</th>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <h3>List of All Products</h3>
+        <p id="allCount"></p>
+        <table id="allTable">
+            <tr>
+                <th>Product ID</th>
+                <th>Type</th>
+                <th>Price</th>
+                <th>Examine</th>
+            </tr>
+        </table>
+    </div>
+
+    <script src="./js/library.js"></script>
+    <script src="./js/productCatalog.js"></script>
+</body>
+
+</html>
